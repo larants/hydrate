@@ -1,0 +1,34 @@
+{
+  "name": "larants/hydrate",
+  "description": "entity 基础分装",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "jonathan",
+      "email": "larants@aliyun.com"
+    }
+  ],
+  "require": {
+    "php": "^7.1.3",
+    "doctrine/annotations": "^1.6",
+    "laravel/framework": "5.8.*"
+  },
+  "require-dev": {},
+  "autoload": {
+    "psr-4": {
+      "Larants\\Hydrate\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Larants\\Hydrate\\Providers\\HydrateServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}

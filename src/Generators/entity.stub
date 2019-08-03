@@ -1,0 +1,20 @@
+<?php
+
+namespace $classNamespace$;
+
+use Larants\Hydrate\Annotations\Mapping;
+use Larants\Hydrate\Entity;
+
+/**
+ * Class $className$
+ * @package $classNamespace$;
+ */
+class $className$ extends Entity
+{
+
+    /**
+     * @Mapping(name="ID")
+     * @var
+     */
+    public $id;
+}
